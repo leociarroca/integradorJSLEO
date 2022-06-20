@@ -1,0 +1,141 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.19/tailwind.min.css"
+    integrity="sha512-wnea99uKIC3TJF7v4eKk4Y+lMz2Mklv18+r4na2Gn1abDRPPOeef95xTzdwGD9e6zXJBteMIhZ1+68QC5byJZw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+</head>
+
+<body class=" flex items-center justify-center " style="background: #edf2f7;">
+    <div class="container mx-auto  bg-white  min-h-screen ">
+        <!-- header -->
+        <div class="flex w-full flex-row justify-between items-center h-32 px-5" 
+        style="background-image: url(assets/background.jpg); 
+        background-position: 100% 20%; 
+        background-size: cover;">
+            <div class="text-gray-800 px-10">
+                <div class="font-bold text-xl text-yellow-500">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cpu-fill" viewBox="0 0 16 16">
+                        <path d="M6.5 6a.5.5 0 0 0-.5.5v3a.5.5 0 0 0 .5.5h3a.5.5 0 0 0 .5-.5v-3a.5.5 0 0 0-.5-.5h-3z"/>
+                        <path d="M5.5.5a.5.5 0 0 0-1 0V2A2.5 2.5 0 0 0 2 4.5H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2v1H.5a.5.5 0 0 0 0 1H2A2.5 2.5 0 0 0 4.5 14v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14h1v1.5a.5.5 0 0 0 1 0V14a2.5 2.5 0 0 0 2.5-2.5h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14v-1h1.5a.5.5 0 0 0 0-1H14A2.5 2.5 0 0 0 11.5 2V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5a.5.5 0 0 0-1 0V2h-1V.5zm1 4.5h3A1.5 1.5 0 0 1 11 6.5v3A1.5 1.5 0 0 1 9.5 11h-3A1.5 1.5 0 0 1 5 9.5v-3A1.5 1.5 0 0 1 6.5 5z"/>
+                      </svg>
+                </i> JL PROCESADORES  </div>
+                
+                <span class="text-xs">PROCESADORES MOTHERS & VIDEO</span>
+            </div>
+            <div class="flex items-center">
+                <div class=" bg-white rounded  ">
+                    <i class="fa-solid fa-magnifying-glass px-3"></i>
+                    <input class="px-4 py-2 mr-4 text-gray-800  font-semibold focus:outline-none " placeholder="Buscar producto" id="buscar">
+                </input>
+                </div>
+              
+            </div>
+        </div>
+        <!-- fin header -->
+        <div class="flex lg:flex-row flex-col-reverse shadow-lg">
+            <!-- seccion izquierda -->
+            <div class="w-full lg:w-4/5 shadow-lg">
+                <!-- categorias -->
+                <div class="mt-5 flex flex-row px-5" id="filtros">
+                    <span id="Todo" class="px-5 py-1 bg-yellow-500 rounded-2xl font-semibold text-sm mr-4 cursor-pointer">
+                        Todo
+                    </span>
+                    <span id="PROCESADORES" class="px-5 py-1 rounded-2xl text-sm font-semibold mr-4 cursor-pointer">
+                        PROCESADORES
+                    </span>
+                    <span id="MOTHERS" class="px-5 py-1 rounded-2xl text-sm font-semibold mr-4 cursor-pointer">
+                        MOTHERS
+                    </span>
+                    <span id="VIDEO" class="px-5 py-1 rounded-2xl text-sm font-semibold mr-4 cursor-pointer">
+                        PLCAS DE VIDEO
+                    </span>
+                    <p><a href="/sus.html" class=""  style='float: center; padding: 12px; text-align: left;'>CONTACTANOS</a></p>
+
+                    <p><a href="/login.html" class="">LOGIN</a></p>
+                    
+                  
+                    
+                </div>
+                <!-- fin categorias -->
+                <!-- productos -->
+                <div class="grid grid-cols-3 gap-4 px-5 my-5 " id="lista-productos">
+
+                   
+                </div>
+                <!-- productos -->
+              
+          
+        </div>
+        <!-- fin seccion iquierda -->
+
+        <!-- seccion derecha -->
+        <div class="w-full lg:w-2/5 mb-5">
+            <!-- header -->
+            <div class="flex flex-row items-center justify-between px-5 mt-5">
+                <div class="font-bold text-xl"><i class="fas fa-shopping-cart"></i> Tu Carrito</div>
+                <div class="font-semibold">
+                    <span id="borrar" class="px-4 py-2 rounded-md bg-red-100 text-red-500 cursor-pointer">Borrar todo</span>
+                  
+                </div>
+            </div>
+            <!-- fin header -->
+            <!-- lista ordenada -->
+            <div id='compra' class="px-5 py-4 mt-5 overflow-y-auto h-52">
+                Tu carrito está vacio 
+             
+            </div>
+            <!-- final lista ordenada -->
+            <!-- totalItems -->
+            <div class="px-5 mt-5">
+                <div class="py-4 rounded-md shadow-lg">
+                    <div class=" px-4 flex justify-between ">
+                        <span class="font-semibold text-sm">Subtotal</span>
+                        <span  id="subtotal" class="font-bold"></span>
+                    </div>
+                  
+                    <div class=" px-4 flex justify-between ">
+                        <span class="font-semibold text-sm">Envio a Domicilio</span>
+                        <span id="envio" class="font-bold"> </span>
+                    </div>
+                    <div  class="border-t-2 mt-3 py-2 px-4 flex items-center justify-between">
+                        <span class="font-semibold text-2xl">Total</span>
+                        <span id="total" class="font-bold text-2xl"></span>
+                    </div>
+                </div>
+            </div>
+            <!-- final total -->
+         
+            <!-- button pago-->
+            <div class="px-5 mt-5">
+                <div class="cursor-pointer px-4 py-4 rounded-md shadow-lg text-center bg-yellow-500 text-white font-semibold" id="pagar">
+                   Pagar
+                </div>
+            </div>
+            
+            <!-- fin boton pago -->
+        </div>
+        <!-- finseccion derecha -->
+        
+    </div>
+    
+    
+    </div>
+    
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+
+    <script src="js/globales.js"> </script>
+    <script src="js/funciones.js"> </script>
+    <script src="js/producto.js"> </script>
+    <script src="js/main.js"> </script>
+    
+
+</body>
+
+</html>

@@ -1,0 +1,100 @@
+[{
+        "id": 1,
+        "nombre": "GYGABYTE B450 II",
+        "precio": 990,
+        "img": "assets/mother.jpg",
+        "descripcion": "",
+        "cantidad" : 1,
+        "categoria": "MOTHERS"
+    },
+    {
+        "id": 2,
+        "nombre": "ASUS A520 MA II",
+        "precio": 990,
+        "img":  "assets/mother.jpg",
+        "descripcion":  "",
+        "cantidad" : 1,
+        "categoria": "MOTHERS"
+    },
+    {
+        "id": 3,
+        "nombre": "ASUS B550 M",
+        "precio": 1100,
+        "img":  "assets/mother.jpg",
+        "descripcion":  "",
+        "cantidad" : 1,
+        "categoria": "MOTHERS"
+    },
+    {
+        "id": 4,
+        "nombre": "ASUS GAMING",
+        "precio": 1100,
+        "img":  "assets/mother.jpg",
+        "descripcion":"",
+        "cantidad" : 1,
+        "categoria": "MOTHERS"
+    },
+    {
+        "id": 5,
+        "nombre": "RYZEN 3",
+        "precio": 900,
+        "img":  "assets/ryzen.jpg",
+        "descripcion": "",
+         "cantidad" : 1,
+        "categoria": "PROCESADORES"
+    },
+    {
+        "id": 6,
+        "nombre": "RYZEN 5",
+        "precio": 1100,
+        "img": "assets/ryzen.jpg",
+        "descripcion":"",
+         "cantidad" : 1,
+        "categoria": "PROCESADORES"
+    },
+    {
+        "id": 7,
+        "nombre": "RYZEN 7",
+        "precio": 900,
+        "img": "assets/ryzen.jpg",       
+        "descripcion":"",
+         "cantidad" : 1,
+        "categoria": "PROCESADORES"
+    },
+    {
+        "id": 8,
+        "nombre": "RYZEN 9",
+        "precio": 1100,
+        "img":  "assets/ryzen.jpg",    
+        "descripcion": "",
+         "cantidad" : 1,
+        "categoria":  "PROCESADORES"
+    },
+    {
+        "id": 9,
+        "nombre": "NVIDIA 1060 SUPER",
+        "precio": 180,
+        "img": "assets/video.jpg",
+        "descripcion": "",
+         "cantidad" : 1,
+        "categoria": "VIDEO"
+    },
+    {
+        "id": 10,
+        "nombre": "NVIDIA 3080",
+        "precio": 220,
+        "img": "assets/video.jpg",
+         "cantidad" : 1,
+        "descripcion": "",
+        "categoria": "VIDEO"
+    },
+    {
+        "id": 11,
+        "nombre": "NVIDIA 3090",
+        "precio": 290,
+        "img": "assets/video.jpg",
+         "cantidad" : 1,
+        "descripcion": "",
+        "categoria": "VIDEO"
+    }
+]
